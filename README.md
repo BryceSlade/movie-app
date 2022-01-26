@@ -1,6 +1,6 @@
 # Trailer Finder
 
-This project was created as a means to display the methods involved with pulling and displaying data from an API.
+This project was created as a means to display the methods involved with pulling and displaying data from an API. Trailer Finder was created as a simple and clean application. 
 
 # User Experience
 • User starts immediately on the landing page that displays the top 20 popular movies today.
