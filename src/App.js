@@ -77,9 +77,9 @@ function App() {
   return (
     <div className="App">
       <header className="center-max-size header">
-        <span className={"brand"}>Movie Trailer App</span>
+        <span className={"brand"}>Trailer Finder</span>
         <form className="form" onSubmit={getMovies}>
-          <input className="search" type="text" id="search"
+          <input className="search" type="text" id="search" placeholder='Search for a movie!'
                 onInput={(event) => setSearchKey(event.target.value)}/>
           <button className="submit-search" type="submit"><i className="fa fa-search"></i></button>
         </form>
