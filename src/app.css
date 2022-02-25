@@ -10,6 +10,7 @@ body {
     max-width: 1020px;
     margin: 0 auto;
     padding: 0 15px;
+    /* border: 1px solid red; */
 }
 
 .header {
@@ -48,6 +49,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
+    border: 1px solid red;
 }
 
 
@@ -95,6 +97,7 @@ h1 {
     cursor: pointer;
     text-align: left;
     font-size: 16px;
+    border: 1px solid red;
 }
 
 .movie img {
@@ -144,4 +147,13 @@ h1 {
     color:  white;
     border: none;
     cursor: pointer;
+}
+
+@media (max-width: 971px) {
+    .container {
+        grid-template-columns: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
